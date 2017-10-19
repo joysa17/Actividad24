@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'layout/index'
+
+  resources :products
   get 'pages/home'
 
   get 'pages/about'
